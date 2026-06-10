@@ -2,7 +2,7 @@
 ESP32‐C3を使ったBluetooth（BLE）接続のレースシミュレーター用ボタン付きステアリングのためのファームウェアです。<br>SimhubでLED制御ができます。
 
 # 私はこれを作りました
-<img width="680" height="510" alt="image" src="https://github.com/user-attachments/assets/a0c6d764-c4d7-42e8-a682-b78e34471a1d" />
+<img width="340" height="255" alt="image" src="https://github.com/user-attachments/assets/a0c6d764-c4d7-42e8-a682-b78e34471a1d" />
 
 半完成品だけど動画もあるよ → https://x.com/kyr_96det/status/2060466349105889299
 
@@ -71,3 +71,11 @@ ESP32‐C3を使ったBluetooth（BLE）接続のレースシミュレーター�
 2. 1の手順を終えていればLEDの制御設定画面が見えているはずです
 3. 後は好きなようにLEDを設定してください `Edit Profile` から設定できます
     * 一応プロファイルを同梱しておきます `Any Game - Default Profile.ledsprofile` `Import profile` から読み込んでください
+
+# そのほか
+* ライセンスはMITにしているつもり
+* 使っているライブラリのコードやバイナリを含めていないためなので、もしこれを使って何かする場合はそちらのライセンスを確認してください
+   * h2zero/NimBLE-Arduino ： Apache-2.0 license
+	* lemmingdev/ESP32-BLE-Gamepad ： MIT License
+	* makuna/NeoPixelBus ： LGPL-3.0 license
+	* mathertel/RotaryEncoder ： BSD Licens
