@@ -2,6 +2,11 @@
 ESP32‐C3を使ったBluetooth（BLE）接続のレースシミュレーター用ボタン付きステアリングのためのファームウェアです。<br>SimhubでLED制御ができます。
 
 # 私はこれを作りました
+* 押しボタン9個（スイッチ×6＋エンコーダーのプッシュ×2+ホーンボタン）
+* ロータリーエンコーダー×２
+* ボタン9個+エンコーダー（2方向スイッチ）×2 → 前13ボタン
+* テレメトリ表示LED（シリアルLED9個）
+
 <img width="340" height="255" alt="image" src="https://github.com/user-attachments/assets/a0c6d764-c4d7-42e8-a682-b78e34471a1d" />
 
 半完成品だけど動画もあるよ → https://x.com/kyr_96det/status/2060466349105889299
@@ -69,7 +74,8 @@ ESP32‐C3を使ったBluetooth（BLE）接続のレースシミュレーター�
         * 変更が終わったら下の`Save definition`を押してウインドウを閉じられます
     4. `+Instantiate` を押します
 2. 1の手順を終えていればLEDの制御設定画面が見えているはずです
-3. 後は好きなようにLEDを設定してください `Edit Profile` から設定できます
+	* BLE接続ができていれば、デバイスが接続されている表示になっているはず
+4. 後は好きなようにLEDを設定してください `Edit Profile` から設定できます
     * 一応プロファイルを同梱しておきます `Any Game - Default Profile.ledsprofile` `Import profile` から読み込んでください
 
 # そのほか
