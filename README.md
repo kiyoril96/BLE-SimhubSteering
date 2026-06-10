@@ -2,7 +2,9 @@
 ESP32‐C3を使ったBluetooth（BLE）接続のレースシミュレーター用ボタン付きステアリングのためのファームウェアです。<br>SimhubでLED制御ができます。
 
 # 私はこれを作りました
-https://x.com/kyr_96det/status/2060466349105889299
+<img width="680" height="510" alt="image" src="https://github.com/user-attachments/assets/a0c6d764-c4d7-42e8-a682-b78e34471a1d" />
+
+半完成品だけど動画もあるよ → https://x.com/kyr_96det/status/2060466349105889299
 
 # ざっくり使い方
 ## 用意するもの
