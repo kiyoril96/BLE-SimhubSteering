@@ -1,0 +1,2 @@
+# BLE-SimhubSteering
+ESP32‐C3を使ったBluetooth接続のレースシミュレーター用ボタン付きステアリングのためのファームウェアです。SimhubでLED制御ができます。
